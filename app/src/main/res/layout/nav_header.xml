@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    style="@style/Theme.AppCompat.Light"
+    android:padding="25dp"
+    >
+<ImageView
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:src="@drawable/ic_ironman"
+    />
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yash Patel"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorWhite"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yashp1000@gmail.com"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/colorWhite"
+        style="@style/TextAppearance.AppCompat.Body2"
+        />
+</LinearLayout>
